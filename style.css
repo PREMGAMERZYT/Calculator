@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #001219;
+}
+
+body {
+  background-color: #001219;
+  height: 100vh;
+}
+
+.rows button {
+  color: white;
+}
+
+.heading {
+  color: white;
+}
+
+.container {
+  text-align: center;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.all-buttons {
+  margin-top: 20px;
+}
+
+.input {
+  width: 30rem;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #343a40;
+  border: none;
+  font-size: 1.1rem;
+  /* box-shadow: 7px 2px 6px blue; */
+}
+
+.button:hover {
+  /* width: 50px; */
+  /* height: 50px; */
+  border-radius: 50%;
+  background-color: #343a40;
+  border: none;
+  font-size: 1.1rem;
+  box-shadow: -3px 6px 6px blue;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+.rows {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.input input {
+  padding: 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  border: 1px solid #343a40;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+  }
+
+  .input input {
+    width: 70%;
+  }
+
+  .button {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  .rows {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
